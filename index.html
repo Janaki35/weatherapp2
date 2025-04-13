@@ -51,7 +51,7 @@
             if (response.status == 404) {
                 document.querySelector(".error").style.display = "block";
                 document.querySelector(".weather").style.display = "none";   
-                return; // Exit to avoid further execution
+                return; 
             }
     
             const data = await response.json();
